@@ -1,0 +1,40 @@
+
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>invoice-billing-website</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Invoice Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- html2pdf -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    /* Dynamic font handling */
+    .invoice-wrapper {
+      font-family: var(--invoice-font, 'Inter', sans-serif);
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Form Section -->
+    <div class="form-section">
+      <div class="form-header" style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h2><i data-lucide="file-text"></i> Invoice Builder</h2>
+          <p>Create professional invoices for your clients.</p>
