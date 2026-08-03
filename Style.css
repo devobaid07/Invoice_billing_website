@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root {
+  --primary-color: #5d25a8; /* Deep purple */
+  --secondary-color: #b137d6; /* Magenta */
+  --primary-color: #1d4ed8; /* Deep blue */
+  --secondary-color: #3b82f6; /* Vibrant blue */
+  --text-dark: #333333;
+  --text-light: #777777;
+  --bg-light: #f4f6fa;
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  width: 120px;
+  height: 140px;
+  background: var(--primary-color);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  max-width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  z-index: 10;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+.hex-logo-wrapper h1 {
+  background-size: 8px 8px;
+}
